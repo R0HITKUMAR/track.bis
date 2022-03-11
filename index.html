@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <title>Track | Bozlun India Services</title>
+</head>
+
+<body>
+    <!-- Center Search Form -->
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center mt-5">Track Order</h1>
+            <div class="col-md-8 offset-md-2 text-center">
+                <div id="trackingStatus" class="mt-5"></div>
+                <form id="tracking-form">
+                    <div class="form-group mb-5">
+                        <label for="order_id" class="m-5">Enter a Valid Tracking ID</label>
+                        <input type="text" class="form-control" id="tracking_id" name="order_id"
+                            placeholder="Enter Tracking ID" />
+  
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button onclick="trackOrder()" class="btn btn-primary" type="button">Track Order</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>
